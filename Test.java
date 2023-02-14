@@ -16,7 +16,7 @@ public class Test {
                       
                  
         default:
-            System.out.println("Default wala");
+            System.out.println("Default wala hai");
           
     }
 }
