@@ -1,23 +1,16 @@
 public class Test {
     public static void main(String[] args){
-    char x = 3;
-    switch (x)
-    {
-        case 1:
-            System.out.println(97);
-            break;
+        int[][][] x = {{{10,20},{30,40}},{{50,60,70},{80,90}}};
 
-        case 2:
-            System.out.println(99);
-            break;
-
-        case 3:
-            System.out.println('a');
-                      
-                 
-        default:
-            System.out.println("Default wala hai");
+        for (int[][] x1 : x) {
+            for (int[] x2 : x1) {
+                for (int x3 : x2) {
+                    System.out.print(x3 + " ");
+                }
+                
+            }
+            
+        }
           
     }
-}
 }
